@@ -35,8 +35,8 @@ GUI download :
 $ ./memusic-gui.py file.emx
 ```
 
-You should ideally configure your browser to launch `memusic-gui.py` when opening .emx files.
+You should ideally configure your browser to launch `memusic-gui.py` when opening `.emx` files.
 
-By the way, `firefox-memusic-launcher.sh` provides a script to launch the command line version of MeMusic in an `xterm` window (path to `memusic.py` has to be changed in the first line). GUI usage is however prefered in most cases.
+By the way, `firefox-memusic-launcher.sh` provides a basic script to launch the command line version of MeMusic in an `xterm` window from your favorite browser (path to `memusic.py` has to be changed in the first line). GUI usage is however prefered in most cases.
 
-Finally, eMusic uses a cookie `dlmInstalled=1` to identify the systems where the eMusic download manager is installed and thus allow the download of the .emx file. `eMusic_dlmInstalled.user.js` is a Greasemonkey script that automatically creates this cookie whenever necessary.
+Finally, eMusic uses a cookie `dlmInstalled=1` to identify the systems where the eMusic download manager is installed and thus allow the download of the `.emx` file. `eMusic_dlmInstalled.user.js` is a [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) script that automatically creates this cookie whenever necessary (not a big deal, but one might find that useful).
