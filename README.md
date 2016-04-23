@@ -7,6 +7,8 @@ We provide here a basic eMusic downloader written in Python (2.7) & GTK (2) that
 
 ![Snapshot of the GUI](/img/snap.png)
 
+**NB:** As an alternative, [Banshee](http://banshee.fm) also includes an extension that seems to do this quite well.
+
 ## Requirements
 
 Python 2.x and GTK2 bindings, typically something like packages `python2.x` and `python-gtk2` of your Linux distribution (names given are taken from Ubuntu/Debian repositories).
