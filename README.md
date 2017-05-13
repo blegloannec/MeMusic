@@ -1,6 +1,8 @@
 # MeMusic
 Minimalistic [eMusic](http://www.emusic.com) downloader
 
+**Update (05/2017):** eMusic has been completely rebuilt and does not use a download manager anymore, hence this project is **obsolete**.
+
 The official [eMusic download manager](http://www.emusic.com/info/download-manager-6/) has no Linux build available since v5 while the old v4.1.4 Linux build is obsolete and does not work anymore on recent distributions.
 
 We provide here a basic eMusic downloader written in Python (2.7) & GTK (2) that basically does the job and nothing more... It is meant for Linux but should work as well on (or at least easily be ported to) OS X or Windows (even though the official client is available for those systems).
